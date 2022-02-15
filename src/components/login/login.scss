@@ -1,0 +1,68 @@
+.container {
+  margin-top: 64px;
+  background-color: #F9FAFC;
+  padding: 40px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 88%;
+  border-radius: 15px;
+}
+
+.image-container{
+  width: 60%;
+}
+
+.welcome-container {
+  width: 40%;
+  padding: 40px;
+  padding-top: 100px;
+
+  .welcome-heading {
+    font-size: 32px;
+    margin-bottom: 30px;
+  } 
+
+  .welcome-description {
+    margin-bottom: 44px;
+    font-size: 13px;
+    color: #767A7D;
+  }
+
+  .welcome-input {
+    position: relative;
+
+    .lock, .envelope {
+      color: #D1D1D1;
+      position: absolute;
+      padding: 10px;
+      pointer-events: none;
+      left: 12px;
+      top: 14px;
+    }
+
+    .welcome-password, .welcome-email {
+      padding-left:  40px;
+    }
+  }
+
+  .welcome-buttons {
+
+    margin-top: 40px;
+
+    .login-btn {
+      background-color: #3D88FF;
+      color: white;
+      font-size: 16px;
+      border-radius: 26px;
+      margin: 4px;
+    } 
+    .create-btn {
+      background-color: white;
+      color: black;
+      font-size: 16px;
+      border-radius: 26px;
+      margin: 4px;
+      margin-left: 20px;
+    }
+  }
+
+}
